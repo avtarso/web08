@@ -70,22 +70,21 @@ def save_data_to_db(data, model: Document):
         filtered_data = update_reference_fields(filtered_data, model)
         save_data(filtered_data, model)
 
-
-if __name__ == "__main__":
-
+def main():
     connect_to_mongo_db
-    
     # Setting up downloadable json-files and models
     data_sources = [
         ('source/authors.json', Author),
         ('source/quotes.json', Quote)
     ]
-
     # Setting up logging
     logging.basicConfig(filename='error.log', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
-
     for file_path, model in data_sources:
         data = load_data_from_json(file_path)
         save_data_to_db(data, model)
+    print("Data successfully loaded into MongoDB!")    
 
-    print("Data successfully loaded into MongoDB!")
+
+if __name__ == "__main__":
+    
+    main():

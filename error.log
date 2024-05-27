@@ -11,7 +11,6 @@
 2024-05-26 22:03:27,984 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 22:03:28,097 - ERROR - Multiple authors found with fullname 'Steve Martin'.
 2024-05-26 22:27:22,539 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 22:27:22,637 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 22:27:22,734 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 22:27:22,833 - ERROR - Multiple authors found with fullname 'Steve Martin'.
 2024-05-26 22:48:18,223 - ERROR - Unexpected error: cannot encode object: datetime.date(1879, 3, 14), of type: <class 'datetime.date'>
@@ -21,8 +20,6 @@
 2024-05-26 22:49:39,730 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 22:49:39,830 - ERROR - Multiple authors found with fullname 'Steve Martin'.
 2024-05-26 22:55:45,114 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 22:55:45,214 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 22:55:45,313 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 22:55:45,413 - ERROR - Multiple authors found with fullname 'Steve Martin'.
 2024-05-26 23:07:34,707 - ERROR - Unexpected error: ValidationError (Author:None) (cannot parse date "March 14, 1879": ['born_date'])
 2024-05-26 23:07:34,708 - ERROR - Unexpected error: ValidationError (Author:None) (cannot parse date "August 14, 1945": ['born_date'])
@@ -31,6 +28,3 @@
 2024-05-26 23:08:44,321 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
 2024-05-26 23:08:44,418 - ERROR - Multiple authors found with fullname 'Steve Martin'.
 2024-05-26 23:09:23,505 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 23:09:23,606 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 23:09:23,707 - ERROR - Multiple authors found with fullname 'Albert Einstein'.
-2024-05-26 23:09:23,807 - ERROR - Multiple authors found with fullname 'Steve Martin'.
